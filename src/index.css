@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  --color-gray-20: #f8f4eb;
+  --color-gray-50: #efe6e6;
+  --color-gray-100: #dfcccc;
+  --color-gray-500: #5e0000;
+
+  /* --color-gray-red: #5e0000; */
+
+  --color-primary-100: #ffe1e0;
+  --color-primary-300: #ffa6ae;
+  --color-primary-500: #ff6b66;
+
+  --color-secondary-400: #ffcd58;
+  --color-secondary-500: #ffc132;
+
+  --background-image-gradient-yellowred: linear-gradient(
+    90deg,
+    #ff616a,
+    #ffc132
+  );
+  /* --background-image-mobile-home: url("./assets/HomePageGraphic.png");
+
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+
+  --content-evolvetext: url("./assets/evolveText.png");
+  --content-abstractwaves: url("./assets/AbstractWaves.png");
+  --content-sparkles: url("./assets/Sparkles.png");
+  --content-circles: url("./assets/Circles.png"); */
+
+  --content-evolvetext: url("./assets/EvolveText.png");
+
+  --breakpoint-xs: "480px";
+  --breakpoint-sm: "660px";
+  --breakpoint-md: "1060px";
+}
+
+@layer base {
+  html,
+  body,
+  #root,
+  .app {
+    height: 100%;
+    width: 100%;
+    font-family: var(--font-dm-sans);
+    scroll-behavior: smooth;
+    @apply text-gray-500;
+  }
+}
