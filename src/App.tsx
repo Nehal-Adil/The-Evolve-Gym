@@ -1,9 +1,15 @@
-import Navbar from "./components/Navbar";
+import Navbar from "@/screens/navbar";
+import { useState } from "react";
+import { SelectedPageEnum, type SelectedPage } from "./shared/types";
 
 const App = () => {
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(
+    SelectedPageEnum.Home,
+  );
+
   return (
     <div className="app bg-gray-20">
-      <Navbar />
+      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage} />
     </div>
   );
 };
