@@ -22,6 +22,10 @@
     #d6001c 0%,
     #ff4d4d 100%
   );
+
+  --font-dm-sans: "DM Sans", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+
   /* --background-image-mobile-home: url("./assets/HomePageGraphic.png");
 
   --font-dm-sans: "DM Sans", sans-serif;
@@ -34,9 +38,9 @@
 
   --content-evolvetext: url("./assets/EvolveText.png");
 
-  --breakpoint-xs: "480px";
+  /* --breakpoint-xs: "480px";
   --breakpoint-sm: "660px";
-  --breakpoint-md: "1060px";
+  --breakpoint-md: "1060px"; */
 }
 
 @layer base {
