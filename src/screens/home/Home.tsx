@@ -1,6 +1,5 @@
 import { gym_poster03, gym_promo } from "@/assets/assets";
 import useMediaQuery from "@/hooks/useMediaQuery";
-import ActionButton from "@/shared/ActionButton";
 import Button from "@/shared/Button";
 import { SelectedPageEnum, type SelectedPage } from "@/shared/types";
 
@@ -27,7 +26,7 @@ const Home = ({ setSelectedPage }: Props) => {
           poster={gym_poster03}
           className="h-full w-full object-cover"
         >
-          <source src={gym_promo} type="video/mp4" />
+          <source src={""} type="video/mp4" />
         </video>
 
         {/* 2. Dark Overlay (For text readability) */}

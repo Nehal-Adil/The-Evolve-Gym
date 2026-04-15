@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { SelectedPageEnum, type SelectedPage } from "./shared/types";
 import Footer from "@/screens/footer/footer";
 import Home from "@/screens/home/Home";
+import Benefits from "@/screens/benefits/Benefits";
+import Evolve from "@/screens/whyEvolve/Evolve";
 
 const App = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -34,6 +36,10 @@ const App = () => {
       />
 
       <Home setSelectedPage={setSelectedPage} />
+
+      <Evolve setSelectedPage={setSelectedPage} />
+
+      <Benefits setSelectedPage={setSelectedPage} />
 
       <Footer />
     </div>
