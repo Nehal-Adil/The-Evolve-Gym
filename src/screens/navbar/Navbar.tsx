@@ -1,4 +1,4 @@
-import { evolve_logo, logo, nav_logo } from "@/assets/assets";
+import { nav_logo } from "@/assets/assets";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import Link from "./Link";

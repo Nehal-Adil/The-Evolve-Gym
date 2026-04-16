@@ -1,11 +1,11 @@
-import Navbar from "@/screens/navbar";
+import Navbar from "@/screens/navbar/Navbar";
 import { useEffect, useState } from "react";
 import { SelectedPageEnum, type SelectedPage } from "./shared/types";
 import Footer from "@/screens/footer/footer";
 import Home from "@/screens/home/Home";
 import Benefits from "@/screens/benefits/Benefits";
 import Evolve from "@/screens/whyEvolve/Evolve";
-import OurClasses from "@/screens/OurClasses/OurClasses";
+import OurClasses from "@/screens/ourClasses/OurClasses";
 import RollingRibbon from "@/shared/RollingRibbon";
 import ContactUs from "@/screens/contacts/ContactUs";
 

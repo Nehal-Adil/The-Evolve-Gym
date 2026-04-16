@@ -1,4 +1,4 @@
-import { gym_poster06, gym_poster07 } from "@/assets/assets";
+import { gym_poster07 } from "@/assets/assets";
 import { SelectedPageEnum, type SelectedPage } from "@/shared/types";
 import { motion } from "motion/react";
 import { useForm } from "react-hook-form";
