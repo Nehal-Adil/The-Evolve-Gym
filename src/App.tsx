@@ -5,6 +5,9 @@ import Footer from "@/screens/footer/footer";
 import Home from "@/screens/home/Home";
 import Benefits from "@/screens/benefits/Benefits";
 import Evolve from "@/screens/whyEvolve/Evolve";
+import OurClasses from "@/screens/OurClasses/OurClasses";
+import RollingRibbon from "@/shared/RollingRibbon";
+import ContactUs from "@/screens/contacts/ContactUs";
 
 const App = () => {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(
@@ -40,6 +43,12 @@ const App = () => {
       <Evolve setSelectedPage={setSelectedPage} />
 
       <Benefits setSelectedPage={setSelectedPage} />
+
+      <RollingRibbon />
+
+      <OurClasses setSelectedPage={setSelectedPage} />
+
+      <ContactUs setSelectedPage={setSelectedPage} />
 
       <Footer />
     </div>

@@ -1,4 +1,4 @@
-import { evolve_logo } from "@/assets/assets";
+import { evolve_logo, logo, nav_logo } from "@/assets/assets";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/16/solid";
 import Link from "./Link";
@@ -26,14 +26,14 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
       <div
         className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-5`}
       >
-        <div className={`${flexBetween} mx-auto w-5/6`}>
+        <div className={`${flexBetween} mx-auto md:w-[90%]`}>
           <div className={`${flexBetween} w-full gap-20`}>
             {/* LOGO */}
-            <img src="/logo.svg" alt="" className="max-w-40" />
+            <img src={nav_logo} alt="" className="max-h-16 max-w-48" />
 
             {/* RIGHT SIDE */}
             {isAboveMediumScreens ? (
-              <div className={`${flexBetween} w-full`}>
+              <div className={`${flexBetween} w-full gap-10`}>
                 {/* INNER LEFT */}
                 <div className={`${flexBetween} gap-8`}>
                   <Link
@@ -81,7 +81,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
       {/* MOBILE MENU */}
       {!isAboveMediumScreens && isMenuOpen && (
-        <div className="bg-primary-100 fixed right-0 bottom-0 z-40 h-full w-75 drop-shadow-xl">
+        <div className="fixed right-0 bottom-0 z-40 h-full w-75 bg-white drop-shadow-xl">
           {/* Close Button */}
           <div className="flex justify-end p-12">
             <button onClick={() => setIsMenuOpen(!isMenuOpen)}>

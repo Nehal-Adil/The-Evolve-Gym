@@ -8,7 +8,7 @@ import {
   HomeModernIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Benefit from "./Benefit";
 import ActionButton from "@/shared/ActionButton";
 import {

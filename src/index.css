@@ -31,6 +31,17 @@
   --content-sparkles: url("./assets/Sparkles.png");
   --content-circles: url("./assets/Circles.png");
 
+  --animate-marquee: marquee 30s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
   /* --breakpoint-xs: "480px";
   --breakpoint-sm: "660px";
   --breakpoint-md: "1060px"; */

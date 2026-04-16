@@ -1,4 +1,11 @@
-import { facebook, instagram, linkedin, x, youtube } from "@/assets/assets";
+import {
+  facebook,
+  instagram,
+  linkedin,
+  logo,
+  x,
+  youtube,
+} from "@/assets/assets";
 
 const Footer = () => {
   const iconStyles =
@@ -7,11 +14,11 @@ const Footer = () => {
   const hrStyles = "mx-auto my-4 h-2 w-[90%] text-center text-gray-400";
 
   return (
-    <footer className="bg-secondary-400 space-y-6 py-16">
-      <div className="mt-16">
+    <footer className="bg-secondary-400 space-y-6 py-8">
+      <div className="">
         {/* LOGO + LINKS */}
         <div className="flex flex-col items-center justify-center gap-6 px-12 md:flex-row md:justify-between">
-          <img alt="logo" src={"/logo.svg"} />
+          <img alt="logo" src={logo} className="w-72" />
 
           <div className="mb-6 flex gap-4">
             <img src={instagram} alt="" className={`${iconStyles}`} />

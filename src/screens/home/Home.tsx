@@ -12,6 +12,7 @@ const Home = ({ setSelectedPage }: Props) => {
 
   return (
     <section
+      id="home"
       className={`relative flex w-full flex-col items-center justify-center overflow-hidden ${isAboveMediumScreens ? "h-screen" : "h-auto"}`}
     >
       <div
@@ -26,7 +27,7 @@ const Home = ({ setSelectedPage }: Props) => {
           poster={gym_poster03}
           className="h-full w-full object-cover"
         >
-          <source src={""} type="video/mp4" />
+          <source src={gym_promo} type="video/mp4" />
         </video>
 
         {/* 2. Dark Overlay (For text readability) */}
