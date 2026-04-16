@@ -1,5 +1,5 @@
 import type React from "react";
-import { SelectedPageEnum, type SelectedPage } from "./types";
+import { type SelectedPage } from "./types";
 
 type Props = {
   children: React.ReactNode;
