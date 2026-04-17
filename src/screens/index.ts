@@ -3,7 +3,7 @@ import Home from "./home/Home";
 import Benefits from "./benefits/Benefits";
 import Footer from "./footer/footer";
 import ContactUs from "./contacts/ContactUs";
-import OurClasses from "./ourClasses/OurClasses";
+import Classes from "./ourClasses/Classes";
 import Evolve from "./whyEvolve/Evolve";
 
-export { Navbar, Home, Benefits, Footer, ContactUs, OurClasses, Evolve };
+export { Navbar, Home, Benefits, Footer, ContactUs, Classes, Evolve };

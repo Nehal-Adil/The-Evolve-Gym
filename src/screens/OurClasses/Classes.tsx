@@ -53,7 +53,7 @@ const classes: Array<ClassType> = [
   },
 ];
 
-const OurClasses = ({ setSelectedPage }: Props) => {
+const Classes = ({ setSelectedPage }: Props) => {
   return (
     <section id="ourclasses" className="w-full px-10 py-10">
       <motion.div
@@ -91,4 +91,4 @@ const OurClasses = ({ setSelectedPage }: Props) => {
   );
 };
 
-export default OurClasses;
+export default Classes;

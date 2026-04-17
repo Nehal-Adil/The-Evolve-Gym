@@ -2,7 +2,7 @@ import {
   Navbar,
   Home,
   Benefits,
-  OurClasses,
+  Classes,
   ContactUs,
   Evolve,
   Footer,
@@ -48,7 +48,7 @@ const App = () => {
 
       <RollingRibbon />
 
-      <OurClasses setSelectedPage={setSelectedPage} />
+      <Classes setSelectedPage={setSelectedPage} />
 
       <ContactUs setSelectedPage={setSelectedPage} />
 
